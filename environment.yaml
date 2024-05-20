@@ -1,0 +1,9 @@
+name: venv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - anaconda
+  - python=3.11.7
+  - pre-commit
+prefix: /opt/anaconda3/envs/venv
